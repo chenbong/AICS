@@ -49,5 +49,8 @@ make
 cd /opt/AICSE-demo-student/demo/style_transfer_bcl/src/offline
 ./run.sh
 
+# 查看输出结果
+ls
+
 read -s -n1 -p "离线推理完成, 可在 /opt/AICSE-demo-student/demo/style_transfer_bcl/src/offline 查看实验结果, 按 任意键 退出 ... "
 
