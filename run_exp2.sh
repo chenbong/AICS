@@ -38,12 +38,14 @@ ls
 read -s -n1 -p "mlu推理完成, 可在 /opt/AICSE-demo-student/demo/style_transfer_bcl/src/online_mlu 查看实验结果, 按 任意键 继续执行 离线推理 ... "
 
 cd /opt/AICSE-demo-student/demo/style_transfer_bcl/src/offline/src
+# 补全离线推理代码
 cp $code_dir/inference.cpp ./
 
 cd /opt/AICSE-demo-student/demo/style_transfer_bcl/src/offline/build
 cmake ..
 make
 
+# 执行离线推理
 cd /opt/AICSE-demo-student/demo/style_transfer_bcl/src/offline
 ./run.sh
 
