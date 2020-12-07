@@ -28,10 +28,10 @@
 git clone https://github.com/chenbong/AICS
 cd AICS
 
-# 实验一
+# 运行实验一
 bash run_exp1.sh
 
-# 实验二
+# 运行实验二
 bash run_exp2.sh
 ```
 
