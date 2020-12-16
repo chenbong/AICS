@@ -6,9 +6,9 @@
 
 实验二：综合实验，必做题：基于TF风格迁移算法的实现
 
-课程官网 http://novel.ict.ac.cn/aics/
+课程官网 http://novel.ict.ac.cn/aics/ 
 
-
+本项目地址：https://github.com/chenbong/AICS 
 
 ## 申请开发环境
 
